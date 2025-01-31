@@ -1,0 +1,27 @@
+# Ignore the virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+*.env
+
+# Ignore logs and cache
+logs/
+*.log
+cache/
+*.sqlite3
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore compiled Cython files
+*.so
